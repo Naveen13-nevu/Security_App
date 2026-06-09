@@ -3,7 +3,7 @@ package com.springsecurity.repository;
 import com.springsecurity.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepo extends JpaRepository<User,Integer> {
+public interface UserRepo extends JpaRepository<User, Integer> {
 
-    User findByUserName(String username);
+    User findByUsername(String username);
 }
